@@ -645,6 +645,26 @@ function App() {
             </p>
           </div>
         </footer>
+
+        {/* Footer de divulgação discreto DDV Technology */}
+        <div className="w-full flex flex-col items-center mt-4 mb-2">
+          <span className="text-xs text-gray-400 mb-1">
+            Gostou desse trabalho e quer impulsionar seu negócio?
+            <span className="ml-1 font-semibold text-gray-500">Fale comigo no WhatsApp!</span>
+            <span className="ml-1 text-[10px] font-bold bg-gradient-to-r from-blue-900 via-blue-600 to-blue-900 bg-clip-text text-transparent drop-shadow-sm animate-pulse">DDV Technology</span>
+          </span>
+          <a
+            href="https://wa.me/5587991718722?text=Olá!%20Vi%20seu%20trabalho%20e%20gostaria%20de%20impulsionar%20meu%20negócio."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center bg-green-500 hover:bg-green-600 text-white text-[10px] px-1.5 py-0.5 rounded-full shadow transition-all duration-200"
+            style={{ minWidth: 20, minHeight: 20 }}
+            aria-label="Fale comigo no WhatsApp"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="w-3 h-3 mr-0.5"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.647.86 5.1 2.34 7.12L4.06 29.25a1 1 0 0 0 1.19 1.19l7.13-2.28A12.94 12.94 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22c-1.77 0-3.45-.38-4.97-1.08l-.35-.16-4.23 1.36 1.36-4.23-.16-.35A9.96 9.96 0 0 1 6 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm5.29-7.71c-.26-.13-1.53-.76-1.77-.85-.24-.09-.41-.13-.58.13-.17.26-.67.85-.82 1.02-.15.17-.3.19-.56.06-.26-.13-1.09-.4-2.07-1.28-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.58-1.4-.8-1.92-.21-.51-.43-.44-.58-.45-.15-.01-.32-.01-.5-.01-.17 0-.45.06-.68.28-.23.22-.9.88-.9 2.15 0 1.26.92 2.48 1.05 2.65.13.17 1.81 2.77 4.39 3.78.61.25 1.09.4 1.46.51.61.19 1.16.16 1.6.1.49-.07 1.53-.62 1.75-1.22.22-.6.22-1.12.15-1.22-.07-.1-.24-.16-.5-.29z"/></svg>
+            WhatsApp
+          </a>
+        </div>
       </div>
     </div>
   );
