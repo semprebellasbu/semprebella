@@ -69,7 +69,7 @@ function App() {
 
   const learningTopics = [
     "Tipos de cílios e técnicas",
-    "Volume brasileiro, clássico e russo",
+    "Volume brasileiro, volume 5D, clássico, russo, mega brasileiro e mega volume",
     "Capping e mapeamento dos olhos",
     "Tipos de pinças e funções",
     "Funcionamento da cola",
