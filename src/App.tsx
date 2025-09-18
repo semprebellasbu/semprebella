@@ -437,7 +437,7 @@ function App() {
                     <div className="absolute -bottom-1 sm:-bottom-2 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-24 h-0.5 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full"></div>
                   </div>
                   <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold text-white mb-3 sm:mb-4 relative">
-                    R$ 1.000<span className="text-lg sm:text-xl md:text-2xl text-gray-400">,00</span>
+                    R$ 1.200<span className="text-lg sm:text-xl md:text-2xl text-gray-400">,00</span>
                     <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4">
                       <Medal className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-400 animate-bounce" />
                     </div>
